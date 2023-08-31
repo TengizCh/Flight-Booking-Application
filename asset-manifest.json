@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Flight-booking-Application/static/css/main.16f0c017.css",
+    "main.js": "/Flight-booking-Application/static/js/main.bfc0fa0e.js",
+    "static/media/lounge.jpg": "/Flight-booking-Application/static/media/lounge.2a974456798c2f247548.jpg",
+    "static/media/video.mp4": "/Flight-booking-Application/static/media/video.e17232ad8e983c34556b.mp4",
+    "static/media/tbilisi.jpg": "/Flight-booking-Application/static/media/tbilisi.407836bacba71a43c7ac.jpg",
+    "static/media/window.jpg": "/Flight-booking-Application/static/media/window.e13bb4548f68d9647aec.jpg",
+    "static/media/newyork.jpg": "/Flight-booking-Application/static/media/newyork.2928bb7b77de7a82224e.jpg",
+    "static/media/dubai.jpg": "/Flight-booking-Application/static/media/dubai.f93576f2e3c8acdddef3.jpg",
+    "static/media/logo.png": "/Flight-booking-Application/static/media/logo.fb1ade5754afb2bf6457.png",
+    "static/media/paris.jpg": "/Flight-booking-Application/static/media/paris.86893b1e140e5e9f8dae.jpg",
+    "index.html": "/Flight-booking-Application/index.html",
+    "main.16f0c017.css.map": "/Flight-booking-Application/static/css/main.16f0c017.css.map",
+    "main.bfc0fa0e.js.map": "/Flight-booking-Application/static/js/main.bfc0fa0e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16f0c017.css",
+    "static/js/main.bfc0fa0e.js"
+  ]
+}
