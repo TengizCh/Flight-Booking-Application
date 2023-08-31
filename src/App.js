@@ -12,7 +12,6 @@ import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <div>
-      kakala
       <Navbar />
       <Home />
       <Search />

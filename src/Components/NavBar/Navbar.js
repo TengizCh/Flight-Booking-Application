@@ -46,7 +46,7 @@ const Navbar = () => {
         </div>
 
         <div className="atb flex">
-          <span>Sign In</span>
+          <span>Sign In 2332323232323232</span>
           <span>Sign Out</span>
         </div>
       </div>
