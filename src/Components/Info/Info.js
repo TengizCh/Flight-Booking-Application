@@ -4,22 +4,22 @@ import { RxCalendar } from "react-icons/rx";
 import { BsShieldCheck } from "react-icons/bs";
 import { BsBookmarkCheck } from "react-icons/bs";
 
-import Aos from "aos";
-import "aos/dist/aos.css";
+// import Aos from "aos";
+// import "aos/dist/aos.css";
 
 const Info = () => {
-  useEffect(() => {
-    Aos.init({ duration: 3000 });
-  }, []);
+  // useEffect(() => {
+  //   Aos.init({ duration: 3000 });
+  // }, []);
 
   return (
-    <div className="info section">
+    <div className="info section" id="info">
       <div className="infoContainer container">
         <div className="titleDiv flex">
-          <h2 data-aos="fade-right" data-aos-duration="2500">
+          <h2 data-aos="fade-down" data-aos-duration="2500">
             Travel to make memories all around the world
           </h2>
-          <button data-aos="fade-left" data-aos-duration="2500" className="btn">
+          <button data-aos="fade-down" data-aos-duration="2500" className="btn">
             View All
           </button>
         </div>

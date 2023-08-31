@@ -2,18 +2,18 @@ import React, { useEffect } from "react";
 
 import lounge from "../../assets/lounge.jpg";
 
-import Aos from "aos";
-import "aos/dist/aos.css";
+// import Aos from "aos";
+// import "aos/dist/aos.css";
 
 const Lounge = () => {
-  useEffect(() => {
-    Aos.init({ duration: 3000 });
-  });
+  // useEffect(() => {
+  //   Aos.init({ duration: 3000 });
+  // });
 
   return (
-    <div className="lounge container section">
+    <div className="lounge container section" id="lounge">
       <div className="sectionContainer grid">
-        <div data-aos="fade-left" data-aos-duration="2500" className="imgDiv">
+        <div data-aos="fade-down" data-aos-duration="2500" className="imgDiv">
           <img src={lounge} />
         </div>
 

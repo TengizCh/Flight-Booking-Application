@@ -3,16 +3,16 @@ import React, { useEffect } from "react";
 // imported images
 import window from "../../assets/window.jpg";
 
-import Aos from "aos";
-import "aos/dist/aos.css";
+// import Aos from "aos";
+// import "aos/dist/aos.css";
 
 const Support = () => {
-  useEffect(() => {
-    Aos.init({ duration: 3000 });
-  });
+  // useEffect(() => {
+  //   Aos.init({ duration: 3000 });
+  // });
 
   return (
-    <div className="support container section">
+    <div className="support container section" id="support">
       <div className="sectionContainer">
         <div className="titleDiv">
           <small>travel support</small>
@@ -65,7 +65,7 @@ const Support = () => {
             </div>
           </div>
 
-          <div data-aos="fade-left" data-aos-duration="2500" className="imgDiv">
+          <div data-aos="fade-down" data-aos-duration="2500" className="imgDiv">
             <img src={window} />
           </div>
         </div>

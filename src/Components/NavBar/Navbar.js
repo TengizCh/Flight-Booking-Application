@@ -9,6 +9,7 @@ import { CgMenuGridO } from "react-icons/cg";
 // Photos
 
 import logo from "../../assets/logo.png";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [active, setActive] = useState("navBarMenu");
@@ -30,7 +31,7 @@ const Navbar = () => {
   window.addEventListener("scroll", addBgColor);
 
   return (
-    <div className="navBar flex">
+    <div className="navBar">
       <div className="navBarOne flex">
         <div>
           <SiConsul className="icon" />
@@ -59,19 +60,82 @@ const Navbar = () => {
         <div className={active}>
           <ul className="menu flex">
             <li onClick={removeNavBar} className="listItem">
-              Home
+              <Link
+                to="home"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={1000}
+                onClick={removeNavBar}
+              >
+                Home
+              </Link>
             </li>
             <li onClick={removeNavBar} className="listItem">
-              About
+              <Link
+                to="search"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={1000}
+                onClick={removeNavBar}
+              >
+                Discover
+              </Link>
             </li>
             <li onClick={removeNavBar} className="listItem">
-              Offers
+              <Link
+                to="support"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={1000}
+                onClick={removeNavBar}
+              >
+                Support
+              </Link>
             </li>
             <li onClick={removeNavBar} className="listItem">
-              Seats
+              <Link
+                to="info"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={1000}
+                onClick={removeNavBar}
+              >
+                Info
+              </Link>
             </li>
             <li onClick={removeNavBar} className="listItem">
-              Destinations
+              <Link
+                to="lounge"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={1000}
+                onClick={removeNavBar}
+              >
+                Lounge
+              </Link>
+            </li>
+            <li onClick={removeNavBar} className="listItem">
+              <Link
+                to="top"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={1000}
+                onClick={removeNavBar}
+              >
+                Top
+              </Link>
             </li>
           </ul>
 

@@ -1,10 +1,10 @@
-import Aos from "aos";
+// import Aos from "aos";
 import React, { useEffect } from "react";
 
 const Subscribers = () => {
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
+  // useEffect(() => {
+  //   Aos.init({ duration: 2000 });
+  // }, []);
 
   return (
     <div className="subscribe section">

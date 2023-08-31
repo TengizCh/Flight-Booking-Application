@@ -6,18 +6,9 @@ import { GrLocation } from "react-icons/gr";
 import { RiAccountPinCircleLine } from "react-icons/ri";
 import { RxCalendar } from "react-icons/rx";
 
-// aos
-
-import Aos from "aos";
-import "aos/dist/aos.css";
-
 const Search = () => {
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  });
-
   return (
-    <div className="search contaner section">
+    <div className="search contaner section" id="search">
       <div
         data-aos="fade-up"
         data-aos-duration="2500"
