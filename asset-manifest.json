@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Flight-booking-Application/static/css/main.16f0c017.css",
-    "main.js": "/Flight-booking-Application/static/js/main.bfc0fa0e.js",
+    "main.js": "/Flight-booking-Application/static/js/main.596548a3.js",
     "static/media/lounge.jpg": "/Flight-booking-Application/static/media/lounge.2a974456798c2f247548.jpg",
     "static/media/video.mp4": "/Flight-booking-Application/static/media/video.e17232ad8e983c34556b.mp4",
     "static/media/tbilisi.jpg": "/Flight-booking-Application/static/media/tbilisi.407836bacba71a43c7ac.jpg",
@@ -12,10 +12,10 @@
     "static/media/paris.jpg": "/Flight-booking-Application/static/media/paris.86893b1e140e5e9f8dae.jpg",
     "index.html": "/Flight-booking-Application/index.html",
     "main.16f0c017.css.map": "/Flight-booking-Application/static/css/main.16f0c017.css.map",
-    "main.bfc0fa0e.js.map": "/Flight-booking-Application/static/js/main.bfc0fa0e.js.map"
+    "main.596548a3.js.map": "/Flight-booking-Application/static/js/main.596548a3.js.map"
   },
   "entrypoints": [
     "static/css/main.16f0c017.css",
-    "static/js/main.bfc0fa0e.js"
+    "static/js/main.596548a3.js"
   ]
 }
